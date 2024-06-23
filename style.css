@@ -1,0 +1,169 @@
+div{
+    background-image: url(Sahara_Assets/shara\ desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.nav-linkp1{
+    
+    display: flex;
+    color: rgb(255, 255, 255);
+    
+    justify-content: space-evenly;
+/* border: 4px violet solid; */
+    
+
+
+    
+}
+
+
+.imgp1{
+    height: 79px;
+    width: 104px;
+   
+    
+}
+
+.header-sectionp1{
+    justify-content: space-between;
+    display: flex;
+   
+    
+}
+
+a{
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 68px;
+}
+
+.img2{
+    margin-left: 68px;
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+.mainheading  {
+    font-size: 145px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+    border-radius: 8px;
+    background-color: white;
+    color: rgb(5, 5, 5);
+    font-weight: 500;
+    font-size: 24px;
+    padding-left: 17px;
+    border-color: aliceblue;
+    padding-right: 17px;
+    padding-top: 3px;
+    padding-bottom:4px ;
+    margin-top: 29px;
+}
+
+a:hover{
+    color: rgb(253, 254, 255);
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.herosection{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+.right-section{
+    display: grid;
+    grid-template-rows: repeat(2,388px);
+    grid-template-columns: repeat(2,388px);
+    grid-gap: 30px;
+     margin-right: 68px; 
+    /* transform: translateY(-100px); */
+}
+
+
+.child1 {
+    background-image: url(Sahara_Assets/pic-1.png);
+    border-radius: 15px;
+    
+   
+    
+    
+}
+
+.child2{
+    background-image: url(Sahara_Assets/pic-2.png);
+    border-radius: 15px;
+    
+    
+}
+
+.child3 {
+    background-image: url(Sahara_Assets/pic-3.png);
+    border-radius: 15px;
+}
+
+.child4{
+    background-image: url(Sahara_Assets/pic-4.png);
+    border-radius: 15px;
+    
+    
+}
+
+.child1:hover{
+    font-size: xx-large;
+    color: antiquewhite;
+     transform: translateY(-15px); 
+
+}
+
+.child2:hover{
+    font-size: xx-large;
+    color: antiquewhite;
+ transform: translateY(-15px); 
+
+}
+
+.child3:hover{
+    font-size: xx-large;
+    color: antiquewhite;
+     transform: translateY(-15px); 
+
+}
+
+.child4:hover{
+    font-size: xx-large;
+    color: antiquewhite;
+     transform: translateY(-15px); 
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 100px) {
+    .herosection {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .right-section{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .child{
+height:475px;
+width:475px;
+    }
+  }
