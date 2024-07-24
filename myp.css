@@ -20,7 +20,7 @@ text-shadow: -1px 4px rgb(112, 199, 211);
 
     .navbar{
         background:transparent;
-         position: fixed;
+         position: absolute;
          left:12%;
          /* display: flex; */
          /* margin-left: 1%;
